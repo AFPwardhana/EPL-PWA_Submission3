@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>PWA Premier League</title>
+  <meta name="theme-color" content="#0811bc">
+  <meta name="Melihat jadwal pertandigan dan score ter upddate" content="Football league"/>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/icon/favicon2.ico">
+  <link rel="apple-touch-icon" href="/icon/apple-touch-icon-180x180.png" sizes="180x180">
+
+
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="navi" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#home" class="brand-logo " id="logo-container"><img src="/icon/favicon-32x32.png" alt="" srcset=""> EPL</a>
+      <a href="#" class="sidenav-trigger " data-target="nav-mobile"><i class="material-icons">menu</i></a>
+      
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile""></ul>
+    </div>
+  </nav>
+  <div class="preloader-background">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Navigasi -->
+  <div id="body-content"></div>
+   
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="js/materialize.min.js"></script>
+  <script type="module" src="js/nav-bar.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/db.js"></script>
+  <script type="module" src="js/sw.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,136 @@
+html { 
+  background: url(../images/1200px-LuzLissabon-blur2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: #f4f4f4;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+.navi{
+    background-color: rgba(0,0,0,0);
+    margin: 5px 0;
+    position: absolute;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    top: 4%;
+}
+.navi a,li{
+    color: #0811bc !important  ;
+}
+.dx{
+    margin-bottom: 20px;    
+    background-color: transparent;
+}
+
+.rounded{
+    border-radius: 20px;
+    height: 622px;
+}
+.roundedToast{
+    border-radius: 20px;
+}
+.table-scroll {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 420px;
+    overflow: auto;
+}
+.tabledeta th{
+    width: 20%;
+}
+
+.logo{
+    height: 2rem;
+    width: 2rem;
+    
+}
+.logoClubs img{
+    height: 10rem;
+    width: none;
+    padding: .7rem;
+}
+
+.teams{
+    height: 250px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.tabs .tab a {
+    color:rgba(251,255, 0, 0.8);
+    
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+    /* color: #db6400f2; */
+    color: #d6ed17ff;
+    
+}
+.select-wrapper {
+    background-color: rgba(242,242,242,0.5);
+}
+
+
+#MatchesTable tr:hover{
+    color: #0811bc;
+    
+}
+#MatchWeek{
+    padding: 25px 5px;
+}
+
+#Standing thead tr , #Scorers thead tr, #Squad thead tr{
+    color: #14a76c;
+}
+
+.detailImg img{
+    height: 20rem;
+    margin: 0 auto;
+}
+.detailImg{
+    padding: 10px 10px;
+    
+}
+.MatchDeta h3,h5{
+    color: #14a76c;
+    
+}
+.MatchDeta h4{
+    color: #ff652f;
+}
+.btn-large{
+    background-color: #ff652f !important;
+}
+#SavedMatches h1 , #SavedTeams h1{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #14a76c;
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+
+    .teams{
+        height: 200px;
+    }    
+    .teams .card-title {
+        font-size: 14px;
+    }
+    
+
+}

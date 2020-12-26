@@ -1,0 +1,80 @@
+<div class="row" style="padding-top: 6.5rem;">
+  <div class="container ">
+      <h3 class="grey-text text-lighten-4">English Premier League Tabs</h3>  
+    <div class="row">  
+        <div class="col s12">  
+          <div class="card grey darken-3 rounded">
+            <div class="card-content grey-text text-lighten-4">
+              <ul class="tabs dx">  
+                <li class="tab col s5 m3"><a class="active" href="#Matches">Matches</a></li>  
+                <li class="tab col s5 m3"><a href="#Standing">Standing</a></li>  
+                <li class="tab col s5 m3"><a href="#Scorers">Scorers</a></li>  
+                <li class="tab col s5 m3"><a href="#Teams">Teams</a></li>
+              </ul>  
+        <div id="Matches" class="">      
+          <div class="input-field col s6 m3">
+            <select id="optionsMatch">
+              <option value="P"><a>Previous Match</a> </option>
+              <option value="C" selected="selected"><a> Current Match</a></option>
+              <option value="N"><a> Next Match</a></option>
+            </select>
+          </div>
+          <div class="col s6 m3 right right-align" id="MatchWeek">
+            <p></p>
+          </div>
+          <div class="table-scroll">
+            <table class="striped">  
+              <tbody id ="MatchesTable">               
+              </tbody>
+            </table>
+          </div>
+        </div>  
+
+        <div id="Standing" class="col s12">
+          <div class="table-scroll" style="height: 510px;">
+            <table class="striped"> 
+              <thead>
+                <tr>
+                    <th>Ranks</th>
+                    <th>Clubs</th>
+                    <th>Played</th>
+                    <th>Wins</th>
+                    <th>Draw</th>
+                    <th>Lost</th>
+                </tr>
+              </thead> 
+              <tbody id ="StandingTable">               
+              </tbody>
+            </table>
+          </div>
+        </div>  
+
+        <div id="Scorers" class="col s12">
+          <div class="table-scroll" style="height: 510px;">
+            <table class="striped"> 
+              <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Position</th>
+                    <th>Club</th>
+                    <th>Goals</th>
+                </tr>
+              </thead> 
+              <tbody id ="ScorersTable">               
+              </tbody>
+            </table>
+          </div>
+        </div>  
+
+        <div id="Teams" class="col s12">
+          <div class="table-scroll" style="height: 510px;">
+            <div class="row" id="TeamCards">
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div> 
+    </div>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>PWA Premier League</title>
+  <meta name="theme-color" content="#0811bc">
+  <meta name="Melihat jadwal pertandigan dan score ter upddate" content="Football league"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/icon/favicon2.ico">
+  <link rel="apple-touch-icon" href="/icon/apple-touch-icon-180x180.png" sizes="180x180">
+
+
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="navi" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo  center" id="logo-container">EPL</a>
+      <a href="./index.html" class=" " data-target="nav-mobile"><i class="material-icons">arrow_back</i></a>
+      
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile""></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+  <div class="preloader-background">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="body-content">
+  
+    <div class="container ">
+      <div class="row">  
+            <div class="col s12" style="margin-top: 10rem;">  
+              <div class="card grey darken-3 rounded" style="height: auto;">
+                <div class="center-align MatchDeta" style="padding: 10px;">
+                </div>
+                <div class="card-content grey-text text-lighten-4">
+                <table class="centered tabledeta">
+                  <thead>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+                </div> 
+              </div>
+            </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large " id="save">
+    <i class="large material-icons">save</i>
+    </a>
+    <a class="btn-floating btn-large " id="delete">
+    <i class="large material-icons">delete_forever</i>
+    </a>
+    
+  </div>
+   
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script type="module" src="js/swDetailMatch.js"></script>
+  
+</body>
+</html>
